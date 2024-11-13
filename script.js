@@ -8,7 +8,7 @@ function autoRefresh() {
 }
 
 function nameLoader() {
-    if (inputName.value === 'Manish'||inputName.value === 'manish'||inputName.value === 'Nishan'||inputName.value === 'Nishan'||inputName.value === 'Allen'||inputName.value === 'allen') {
+    if (inputName.value === 'Manish'||inputName.value === 'manish'||inputName.value === 'Nishan'||inputName.value === 'nishan'||inputName.value === 'Allen'||inputName.value === 'allen') {
         console.log("Nice Try");
         var ranNum = Math.floor((Math.random() * 3) + 1);
         console.log(inputName.value);
