@@ -8,7 +8,7 @@ function autoRefresh() {
 }
 
 function nameLoader() {
-    if (inputName.value === 'Manish'||inputName.value === 'manish') {
+    if (inputName.value === 'Manish'||inputName.value === 'manish'||inputName.value === 'Nishan'||inputName.value === 'Nishan'||inputName.value === 'Allen'||inputName.value === 'allen') {
         console.log("Nice Try");
         var ranNum = Math.floor((Math.random() * 3) + 1);
         console.log(inputName.value);
@@ -17,13 +17,21 @@ function nameLoader() {
         culName.innerText = ip;
         gID.innerText = 'Men';
         return; // Return early if the input is "Manish"
-    } else {
+    } else if(inputName.value === 'Ajay'||inputName.value === 'ajay'){
         var ranNum = Math.floor((Math.random() * 3) + 1);
         console.log(inputName.value);
         var ip = inputName.value;
         dis.style = "display:block";
         culName.innerText = ip;
+        gID.innerText = 'Gay';
+    }
 
+    else{
+        var ranNum = Math.floor((Math.random() * 3) + 1);
+        console.log(inputName.value);
+        var ip = inputName.value;
+        dis.style = "display:block";
+        culName.innerText = ip;
         if (ranNum == 1) {
             gID.innerText = 'Men';
         } else if (ranNum == 2) {
